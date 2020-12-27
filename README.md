@@ -4,7 +4,7 @@
 
 ## 开发环境配置
 
-1. 安装go，参见[相关文档](相关文档)
+1. 安装go，参见[相关文档](https://github.com/Windyabc/seckill#%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3)
 2. 设置GOROOT和GOPATH，请自行查阅相关资料
 3. 安装beego
    1. `go env -w GOPROXY=https://goproxy.cn`
