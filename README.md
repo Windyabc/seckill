@@ -12,13 +12,14 @@
    3. `go get github.com/beego/bee`
    4. 将$GOPATH/bin加入到系统环境变量
 4. 进入$GOPATH目录
-5. `mkdir seckill`
-6. `cd seckill`
+5. `mkdir seckill-backend`
+6. `cd seckill-backend`
 7. `git init`
-8. `git add remote origin https://github.com/Windyabc/seckill.git`
-9. `git pull remote main`
-10. `bee run`
-11. 若能正常访问`localhost:8080`，则环境配置成功
+8. `git remote add origin https://github.com/Windyabc/seckill.git`
+9. `git pull origin main`
+10. `go mod init`
+11. `bee run`
+12. 若能正常访问`localhost:8080`，则环境配置成功
 
 ## 协作流程及规范
 
